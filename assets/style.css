@@ -32,10 +32,27 @@ ul li {
     
   
 }
+ .button {
+    background-color: #ffa500;
+        border-radius: 4px;
+        border: 0;
+        width: 72%;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 400;
+        height: 2.85em;
+        line-height: 2.95em;
+        padding: 0 1.5em;
+        text-align: center;
+        text-decoration: none;
+}
+
 
 
 .panel {
     display: flex;
+    background-color: #ffffff;
     align-items: stretch;
     justify-content: center;
     padding-top: 52px;
@@ -72,31 +89,13 @@ ul li {
 }
 
 .pic {
-    width: 100%;
-    border-radius: inherit;
+    width: 98%;
+    height: 39%;
+    padding-top: 4px;
 }
 
-.item > a {
-  
-    border-radius: 4px;
-    border: 0;
-    width: 74%;
-    color: #ffffff ;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    height: 2.85em;
-    line-height: 2.95em;
-    padding: 0 1.5em;
-    text-align: center;
-    text-decoration: none;
-    
-}
 
-.button {
-    background-color: #ffa500;
-    color: #fff;
-}
+
 
 /* form */
 
@@ -107,22 +106,26 @@ ul li {
     z-index: 1;
 }
 
-.buttonsumbit {
-        background-color: #ffa500;
-        border-radius: 4px;
-        border: 0;
-        width: 30%;
-        color: #ffffff;
-        cursor: pointer;
-        display: inline-block;
-        font-weight: 400;
-        height: 2.85em;
-        line-height: 2.95em;
-        padding: 0 1.5em;
-        text-align: center;
-        text-decoration: none;
+footer button {
+width: 30%;
 
 }
+
 aside {
     background-color: #744c6e;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-gap: 1em;
+    height: 41vh;
+}
+
+.picmicrophone img {
+    height: 50vh;
+    width: 50%,
+}
+
+.contact{
+    background-image: url("img/contacus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
